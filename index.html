@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+   <link href="./styles.css" rel="stylesheet">
+   <title>YDT-test-task</title>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="container">
+         <div class="main-flow">
+            <header class="navbar">
+               <img class="logo" src="./images/Logo@1X.png" alt="logo">
+               <div class="middle-nav-container">
+                  <div class="left-nav">
+                     <div class="left-nav-item">Home.</div>
+                     <div class="left-nav-item">About Us.</div>
+                     <div class="left-nav-item">Portfolio.</div>
+                     <div class="left-nav-item">Blog.</div>
+                     <div class="left-nav-item">Contact Us.</div>
+                  </div>
+                  <div class="right-nav">
+                     <select>
+                        <option>En</option>
+                        <option>Ua</option>
+                     </select>
+                     <div class="contact-arrow">
+                        <div class="contact-arrow-title">Contact Us</div>
+                        <img src="./images/Arrow@1X.png" alt="arrow" class="arrow">
+                     </div>
+                  </div>
+               </div>
+               <img src="./images/hamburger-menu.png" class="burger" alt="burger-menu"></img>
+            </header>
+            <div class="agency-title-container">
+                  <div class="title-container">
+                     <div class="spirit-wrapper">
+                        <div class="spirit-title">The Spirit of<br> Digital Agency.</div>
+                        <div class="spirit-text">Vestibulum ac diam sit amet quam vehicula elementum amet<br> est on dui. Nulla porttitor accumsan tincidunt.</div>
+                        <div class="spirit-button-container">
+                           <button class="spirit-button">More About us</button>
+                           <div class="spirit-button-text">Get in Touch.</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slider-container">
+                     <div data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "autoplay": true, "arrows": false }' id="slider">
+                        <div class="slider-item">
+                           <img src="./images/Vector Illustration@1X.png" alt="illustration" class="illustration">
+                        </div>
+                        <div class="slider-item">
+                           <img src="./images/Vector Illustration@1X.png" alt="illustration" class="illustration">
+                        </div>
+                        <div class="slider-item">
+                           <img src="./images/Vector Illustration@1X.png" alt="illustration" class="illustration">
+                        </div>
+                     </div>
+                  </div>
+            </div>
+            <div class="content">
+               <div class="portfolio-container">
+                  <div class="portfolio-title-container">
+                     <div class="portfolio-title">See some of our<br> Creative work.</div>
+                  </div>
+                  <div class="works-container">
+                     <div class="work-item"></div>
+                     <div class="work-item"></div>
+                     <div class="work-item"></div>
+                     <div class="work-item"></div>
+                     <div class="work-item"></div>
+                     <div class="work-item"></div>
+                  </div>
+                  <div class="works-link-container">
+                     <div class="works-link">See more of this</div>
+                  </div>
+               </div>
+               <div class="contact-container">
+                  <div class="contact-title-container">
+                     <div class="contact-title-one">CONTACT US</div>
+                     <div class="contact-title-two">Get in Touch</div>
+                  </div>
+                  <div class="contact-items-container">
+                     <div class="items-container">
+                        <input class="email-item" placeholder="Your email" type="text"></input>
+                        <input class="subject-item" placeholder="subject" type="text"></input>
+                     </div>
+                     <input class="message-item" placeholder="Message here..." type="text"></input>
+                  </div>
+                  <div class="contact-button-container">
+                     <button class="contact-button">Send Message</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         
+         <footer>
+            <div class="footer-content-wrapper">
+               <div class="footer-title-one">DOOB</div>
+               <div class="footer-title-two">CREATIVITY ABOVE</div>
+               <div class="footer-menu">
+                  <div class="footer-menu-item">Home.</div>
+                  <div class="footer-menu-item">About Us.</div>
+                  <div class="footer-menu-item">Portfolio.</div>
+                  <div class="footer-menu-item">Blog.</div>
+                  <div class="footer-menu-item">Contact Us.</div>
+               </div>
+               <div class="footer-rights"> © 2019 - Doob,All Right Reserved</div>
+               <div class="footer-social">
+                  <img src="./images/Facebook@1X.png" alt="facebook" class="facebook">
+                  <img src="./images/Twitter@1X.png" alt="twitter" class="twitter">
+                  <img src="./images/Dribble@1X.png" alt="dribble" class="dribble">
+               </div>
+            </div>
+         </footer>
+      </div>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   
+   <script src='./script.js'></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+   <script>$('#slider').slick()</script>
+</body>
+</html>
